@@ -1,0 +1,18 @@
+<html>
+<head>
+  <script src= "https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src= "ajax.js"></script>
+  <script src= "frontend.js"></script>
+</head>
+    <body onload="getData();">
+        <h2>Buffalo Police Department Incident Data</h2>
+        <div id= "barGraph"></div>
+        <div id= "pieChart"></div>
+        <h4>Plot the number of incidents for a given hour over multiple years.</h4>
+        <p1>Please use a single or double digit number for 24 hour format. (Example: 8 for 0800, 15 for 1500)</p1>
+        <br>
+        <input type= "text" name= "line" id= "line"></input>
+        <button onclick= "getLineChart();">Plot It!</button>
+        <div id= "lineChart"></div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+[[package]]
+name = "bottle"
+version = "0.12.23"
+description = "Fast and simple WSGI-framework for small web-applications."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "numpy"
+version = "1.22.2"
+description = "NumPy is the fundamental package for array computing with Python."
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.8.0,<3.9"
+content-hash = "be85681ff287381c8ac7c605ee5fdc2198c1ec32d7d02127c50740ba4b598285"
+
+[metadata.files]
+bottle = []
+numpy = []
